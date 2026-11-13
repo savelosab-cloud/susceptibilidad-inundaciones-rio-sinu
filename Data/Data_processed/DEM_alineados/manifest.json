@@ -1,0 +1,67 @@
+{
+  "proyecto": "Susceptibilidad a inundaciones - Río Sinú",
+  "crs": "EPSG:31972",
+  "resolucion_m": 30.0,
+  "origen_superior_izquierdo": [
+    364080.0,
+    1044510.0
+  ],
+  "transformacion_afín": [
+    30.0,
+    0.0,
+    364080.0,
+    0.0,
+    -30.0,
+    1044510.0
+  ],
+  "ancho_pixeles": 3103,
+  "alto_pixeles": 3848,
+  "extension": [
+    364080.0,
+    929070.0,
+    457170.0,
+    1044510.0
+  ],
+  "nodata_salida": -9999.0,
+  "remuestreo": "bilinear",
+  "mascara": "Centro del píxel dentro del AOI",
+  "versiones": {
+    "python": "3.13.18",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "geopandas": "1.2.0",
+    "rasterio": "1.5.2",
+    "shapely": "2.2.0",
+    "pyproj": "3.8.0"
+  },
+  "aoi_archivo": "Perimetro_AOI_SINU.gpkg",
+  "aoi_capa": "Perimetro_AOI_SINU",
+  "entradas": [
+    {
+      "archivo": "ANADEM_Sinu.tif",
+      "sha256": "3812c7371f08fd9c723bdaf6624b5aa0855bb483552b5eb18eb0c4f45acc0e0c"
+    },
+    {
+      "archivo": "Copernicus_GLO30_Sinu.tif",
+      "sha256": "52fb8160474f4515e98960dd05b1da2ab345f854bff3c8fb37a2fd5dd5062dac"
+    },
+    {
+      "archivo": "FABDEM_Sinu_V12.tif",
+      "sha256": "940bded83d78d755ce53a93dd0b500008fe2f34a0c62f8400a588a476b5180ce"
+    }
+  ],
+  "salidas": [
+    {
+      "archivo": "ANADEM_Sinu_alineado.tif",
+      "sha256": "212aad102af22520c33e19d8af1a47991afab7c27d34732695a1d3646c28a411"
+    },
+    {
+      "archivo": "Copernicus_GLO30_Sinu_alineado.tif",
+      "sha256": "95e76f85b447bab34027e770ba3c0598811032005e2fc1a6d52bf117339977fa"
+    },
+    {
+      "archivo": "FABDEM_Sinu_V12_alineado.tif",
+      "sha256": "187b7c039fa1594e7d3fbd1372118127375661e9f8998dee9d89502a5b5bd3fe"
+    }
+  ]
+}

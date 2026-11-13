@@ -1,0 +1,4 @@
+
+projects/sinu-flood-susceptibility/assets/01_DEM/ANADEM_Sinu
+projects/sinu-flood-susceptibility/assets/01_DEM/Copernicus_GLO30_Sinu
+projects/sinu-flood-susceptibility/assets/01_DEM/FABDEM_Sinu_V12

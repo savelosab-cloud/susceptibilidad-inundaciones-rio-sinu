@@ -1,0 +1,4 @@
+archivo,crs_correcto,transform_correcto,ancho_correcto,alto_correcto,resolucion_correcta,nodata_correcto,una_banda,dtype_float32,sin_infinitos_validos,fuera_aoi_es_nodata,hay_datos_validos,todos_correctos,pixeles_validos
+ANADEM_Sinu_alineado.tif,True,True,True,True,True,True,True,True,True,True,True,True,6518932
+Copernicus_GLO30_Sinu_alineado.tif,True,True,True,True,True,True,True,True,True,True,True,True,6519713
+FABDEM_Sinu_V12_alineado.tif,True,True,True,True,True,True,True,True,True,True,True,True,6519713
